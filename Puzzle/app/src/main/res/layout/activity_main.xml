@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.n1books.dev.myapplication.MainActivity">
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton1"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button1"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton2"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button2"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton3"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button3"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton4"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button4"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton5"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button5"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton6"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button6"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton7"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/button7" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton8"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/button8"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:onClick="btn_onClick"
+            android:id="@+id/ibutton9"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="@drawable/blank"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitXY" />
+    </GridLayout>
+</LinearLayout>

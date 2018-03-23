@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.n1books.dev.logintest.LoginSuccess">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Login Complete!!!"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="visible"
+        android:paddingLeft="50sp"
+        android:paddingTop="20sp" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:onClick="btnClose_click"
+        android:text="Close"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageButton
+        android:id="@+id/imgHorde"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_alignEnd="@+id/imgAlliance"
+        android:layout_alignRight="@+id/imgAlliance"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:onClick="imgHorde_click"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/horde" />
+
+    <ImageButton
+        android:id="@+id/imgAlliance"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_toLeftOf="@+id/btnClose"
+        android:layout_toStartOf="@+id/btnClose"
+        android:background="@android:color/transparent"
+        android:onClick="imgAlliance_click"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/alliance" />
+</RelativeLayout>
